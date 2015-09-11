@@ -7,14 +7,14 @@
     To change this template use Tools | Templates.
 */
 #navbar {
-    text-align:center
+  text-align:center
 }
 #navbar li{
-        display:black
-        border:2px solid blue
-        padding:16px
-        background-color:purple
+        display:inline-block;
+        border:2px solid blue;
+        padding:16px;
+        background-color:pink;
 }
 #navbar a{
-    color:blue
+    color:blue;
 }
