@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>The Calculator</title>
+	<style>
+	    #dropdown{
+	        width: 55px;
+	    }
+	    #display{
+	        background:pink;
+	    }
+	    
+	    h1{
+	        background-color:black;
+          color:red;
+          text-align:center;
+	    }
+	    body{
+	        background-color:pink;
+	    }
+	     p {
+            color:red;
+            font-family:helvetica;
+            font-size:17px;
+            width:55%;
+            line-height:1.7em
+        }
+        a:link {
+            color:blue;
+        }
+        a:visited {
+            color:red;
+        }
+	</style>
+	 <!--navbar-->
+    <h1>Table of Contents</h1>
+        <ul id="navbar">
+     <li><a href="info.html">My Interests</a></li>
+     <li><a href="calc.html">The Calculator</a></li>
+     <li><a href="todolist.HTML">The To Do List</a></li>
+    </ul>
+    <!--end of navbar--->
+</head>
+<body>
+    <h1>The Calculator</h1>
+<input type ="text" name="input1" style="width:50px;" id="input1">
+    <select id="dropdown">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="^">^</option>
+    </select>
+    <input type ="text" name="input2" style="width:50px;" id="input2">
+    <input type="button" value="Calculate" id="submitButton" />
+    
+    
+    <p>The answer is: <span id="display"></span></p>
+<script src="calc.js" ></script>
+
+</body>
+</html>
