@@ -9,7 +9,7 @@ var todo = document.getElementById('todolist'),
 //submit function
 form.addEventListener('submit', function(evt) {
   var text = field.value;
-  //values for list
+  //values for list 
 if(dropdown.value == "nothing"){
   todo.innerHTML += '<div>' + text + '</div>';
 }
